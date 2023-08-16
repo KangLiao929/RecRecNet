@@ -9,7 +9,7 @@ This is the official implementation for [RecRecNet](https://arxiv.org/abs/2301.0
 > ### Problem
 > Given a rectified wide-angle image, RecRecNet aims to construct a win-win representation on both image content and boundary, with the perspective of the rectangling technique.
 >  ### Features
->  * First win-win representation of the large filed-of-view vision
+>  * First win-win representation of the large field-of-view (FoV) vision
 >  * A thin-plate spline (TPS) motion module is proposed to flexibly formulate the non-linear and non-rigid rectangling transformation
 >  * A DoF-based curriculum learning is designed to grasp the progressive deformation rules and relieve the burden of complex structure approximation
 >  * An in-depth analysis of why the deformed image boundary can significantly influence the vision perception models
