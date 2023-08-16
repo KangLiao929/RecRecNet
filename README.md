@@ -3,6 +3,8 @@
 ## Introduction
 This is the official implementation for [RecRecNet](https://arxiv.org/abs/2301.01661) (ICCV2023).
 
+[Kang Liao](https://kangliao929.github.io/), [Lang Nie](https://nie-lang.github.io/),  [Chunyu Lin](http://faculty.bjtu.edu.cn/8549/), [Zishuo Zheng](), [Yao Zhao](http://mepro.bjtu.edu.cn/zhaoyao/e_index.htm)
+
 > ### Problem
 > Given a rectified wide-angle image, RecRecNet aims to construct a win-win representation on both image content and boundary, with the perspective of the rectangling technique.
 >  ### Features
@@ -10,6 +12,9 @@ This is the official implementation for [RecRecNet](https://arxiv.org/abs/2301.0
 >  * A thin-plate spline (TPS) motion module is proposed to flexibly formulate the non-linear and non-rigid rectangling transformation
 >  * A DoF-based curriculum learning is designed to grasp the progressive deformation rules and relieve the burden of complex structure approximation
 >  * An in-depth analysis of why the deformed image boundary can significantly influence the vision perception models
+
+
+![](https://github.com/KangLiao929/RecRecNet/blob/main/img/results.png) 
 
 Code and dataset will be released before the main conference.
 
