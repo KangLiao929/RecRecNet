@@ -3,8 +3,7 @@
 ## Introduction
 This is the official implementation for [RecRecNet](https://arxiv.org/abs/2301.01661) (ICCV2023).
 
-[Kang Liao](https://kangliao929.github.io/), [Lang Nie](https://nie-lang.github.io/),  [Chunyu Lin](http://faculty.bjtu.edu.cn/8549/), Zishuo Zheng, [Yao Zhao](http://mepro.bjtu.edu.cn/zhaoyao/e_index.htm)
-
+[Kang Liao](https://kangliao929.github.io/), [Lang Nie](https://nie-lang.github.io/),  [Chunyu Lin](http://faculty.bjtu.edu.cn/8549/), [Zishuo Zheng](), [Yao Zhao](http://mepro.bjtu.edu.cn/zhaoyao/e_index.htm) 
 (The first two authors contribute equally)
 
 > ### Problem
