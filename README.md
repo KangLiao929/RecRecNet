@@ -7,7 +7,7 @@ This is the official implementation for [RecRecNet](https://arxiv.org/abs/2301.0
 
 
 <div align="center">
-  <img src="https://github.com/KangLiao929/RecRecNet/blob/main/img/pipeline.png" width="500" height="300">
+  <img src="https://github.com/KangLiao929/RecRecNet/blob/main/img/pipeline.png" height="240">
 </div>
 
 > ### Problem
