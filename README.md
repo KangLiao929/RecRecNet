@@ -8,7 +8,7 @@ This is the official implementation for [RecRecNet](https://arxiv.org/abs/2301.0
 
 > ### Problem
 > Given a rectified wide-angle image, RecRecNet aims to construct a win-win representation on both image content and boundary, with the perspective of the rectangling technique.
-> ![](https://github.com/KangLiao929/RecRecNet/blob/main/img/pipeline.png) 
+> <img src="https://github.com/KangLiao929/RecRecNet/blob/main/img/pipeline.png" width="300" height="200">
 >  ### Features
 >  * First win-win representation of the large field-of-view (FoV) vision
 >  * A thin-plate spline (TPS) motion module is proposed to flexibly formulate the non-linear and non-rigid rectangling transformation
