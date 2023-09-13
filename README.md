@@ -19,7 +19,7 @@ This is the official implementation for [RecRecNet](https://arxiv.org/abs/2301.0
 >  * An in-depth analysis of why the deformed image boundary can significantly influence the vision perception models
 
 
-![](https://github.com/KangLiao929/RecRecNet/blob/main/img/result.png) 
+<img src="https://github.com/KangLiao929/RecRecNet/blob/main/img/result" height="400">
 
 Code and dataset will be released before the main conference.
 
