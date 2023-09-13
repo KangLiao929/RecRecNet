@@ -18,8 +18,9 @@ This is the official implementation for [RecRecNet](https://arxiv.org/abs/2301.0
 >  * A DoF-based curriculum learning is designed to grasp the progressive deformation rules and relieve the burden of complex structure approximation
 >  * An in-depth analysis of why the deformed image boundary can significantly influence the vision perception models
 
-
-<img src="https://github.com/KangLiao929/RecRecNet/blob/main/img/result.png" height="400">
+<div align="center">
+  <img src="https://github.com/KangLiao929/RecRecNet/blob/main/img/result.png" height="400">
+</div>
 
 Code and dataset will be released before the main conference.
 
