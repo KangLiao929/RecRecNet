@@ -34,11 +34,11 @@ pip install -r requirements.txt
 We constructed the first dataset for the rectified wide-angle rectangling task. The structure of the original rectified wide-angle image was first optimized by an energy function with line-preserving mesh deformation, as proposed in [He et al.](https://kaiminghe.github.io/publications/sig13pano.pdf). And then we carefully filtered all results and repeated the selection process three times. The dataset can be downloaded here: [train.zip](https://drive.google.com/file/d/1tUFgMMkSvdGtv7OYP1Z-0HV64suGnjUQ/view?usp=sharing), [test.zip](https://drive.google.com/file/d/1qpnqIYnHOYJQh4p-QdfEKGNvx1w_ekI8/view?usp=sharing).
 
 ## Pretrained Model
-Download the pretrained model [here](https://drive.google.com/file/d/1y9iTfWCycS3BAFViMsClbur11IY-HgXf/view?usp=sharing) and put it into the ```.\checkpoint```folder.
+Download the pretrained model [here](https://drive.google.com/file/d/1y9iTfWCycS3BAFViMsClbur11IY-HgXf/view?usp=sharing) and put it into the ```.\checkpoint``` folder.
 
 ## Training
 ### Curriculum Generation
-Generate the curriculum to grasp the progressive deformation rules of rectangling. The source image can be from ImageNet or COCO. Please set the suitable $path1$, $path2$, and $dof$ (4 and 8) and run:
+Generate the curriculum to grasp the progressive deformation rules of rectangling. The source image can be collected from ImageNet or COCO. Please set the suitable $path1$, $path2$, and $dof$ (4 and 8) and run:
 ```
 sh scripts/curriculum_gen.sh
 ```
@@ -52,9 +52,14 @@ Customize the paths of checkpoint and test set, and run:
 ```
 sh scripts/test.sh
 ```
+The rectangling image and its corresponding warping mesh (formed by predicted TPS control points) can be found in the ```.\results``` folder.
+
+<div align="center">
+  <img src="https://github.com/KangLiao929/RecRecNet/blob/main/img/results.png" height="400">
+</div>
 
 ## Citation
-If you feel RecRecNet is helpful in your research, please consider referring it:
+If you feel RecRecNet is helpful in your research, please consider referring to it:
 ```bibtex
 @article{liao2023recrecnet,
   title={RecRecNet: Rectangling rectified wide-angle images by thin-plate spline model and DoF-based curriculum learning},
