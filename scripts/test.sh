@@ -1,0 +1,1 @@
+python test.py --gpu 0 --grid_h 8 --grid_w 8 --test_path './test/' --model_path './checkpoint/'

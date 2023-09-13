@@ -1,0 +1,1 @@
+python curriculum_gen.py --path1 'imgs/' --path2 'imgs/' --size 5000 --dof 4
