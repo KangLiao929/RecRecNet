@@ -37,7 +37,21 @@ We constructed the first dataset for the rectified wide-angle rectangling task. 
 Download the pretrained model [here](https://drive.google.com/file/d/1y9iTfWCycS3BAFViMsClbur11IY-HgXf/view?usp=sharing) and put it into the ```.\checkpoint```folder.
 
 ## Training
-
+### Curriculum Generation
+Generate the curriculum to grasp the progressive deformation rules of rectangling. The source image can be from ImageNet or COCO. Please set the suitable $path1$, $path2$, and &dof& (4 and 8) and run:
+```
+sh scripts/curriculum_gen.sh
+```
+### TPS Model Training
+Customize the paths of 4-dof dataset, 8-dof dataset, and wide-angle image rectangling dataset, and run:
+```
+sh scripts/train.sh
+```
+## Test
+Customize the paths of checkpoint and test set, and run:
+```
+sh scripts/test.sh
+```
 
 ## Citation
 If you feel RecRecNet is helpful in your research, please consider referring it:
