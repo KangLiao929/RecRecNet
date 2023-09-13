@@ -47,7 +47,7 @@ Customize the paths of 4-dof dataset, 8-dof dataset, and wide-angle image rectan
 ```
 sh scripts/train.sh
 ```
-## Test
+## Testing
 Customize the paths of checkpoint and test set, and run:
 ```
 sh scripts/test.sh
