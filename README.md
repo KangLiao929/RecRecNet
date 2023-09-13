@@ -8,7 +8,7 @@ This is the official implementation for [RecRecNet](https://arxiv.org/abs/2301.0
 
 > ### Problem
 > Given a rectified wide-angle image, RecRecNet aims to construct a win-win representation on both image content and boundary, with the perspective of the rectangling technique.
-<div style="text-align:center;">
+<div align="center">
   <img src="https://github.com/KangLiao929/RecRecNet/blob/main/img/pipeline.png" width="500" height="300">
 </div>
 >  ### Features
