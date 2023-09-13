@@ -22,7 +22,14 @@ This is the official implementation for [RecRecNet](https://arxiv.org/abs/2301.0
   <img src="https://github.com/KangLiao929/RecRecNet/blob/main/img/result.png" height="400">
 </div>
 
-Code and dataset will be released before the main conference.
+## Installation
+Using the virtual environment (conda) to run the code is recommended.
+```
+conda create -n recrecnet python=3.6
+conda activate recrecnet
+pip install -r requirements.txt
+```
+
 
 ## Citation
 If you feel RecRecNet is helpful in your research, please consider referring it:
