@@ -38,7 +38,7 @@ Download the pretrained model [here](https://drive.google.com/file/d/1y9iTfWCycS
 
 ## Training
 ### Curriculum Generation
-Generate the curriculum to grasp the progressive deformation rules of rectangling. The source image can be from ImageNet or COCO. Please set the suitable $path1$, $path2$, and &dof& (4 and 8) and run:
+Generate the curriculum to grasp the progressive deformation rules of rectangling. The source image can be from ImageNet or COCO. Please set the suitable $path1$, $path2$, and $dof$ (4 and 8) and run:
 ```
 sh scripts/curriculum_gen.sh
 ```
