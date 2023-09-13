@@ -30,6 +30,8 @@ conda activate recrecnet
 pip install -r requirements.txt
 ```
 
+## Dataset
+We construct the first dataset for the rectified wide-angle rectangling task. The structure of the original rectified wide-angle image is first optimized by an energy function with line-preserving mesh deformation, as proposed in [He et al.](https://kaiminghe.github.io/publications/sig13pano.pdf). And then we carefully filter all results and repeat the selection process three times. The dataset can be downloaded here: [train.zip](https://drive.google.com/file/d/1tUFgMMkSvdGtv7OYP1Z-0HV64suGnjUQ/view?usp=sharing), [test.zip](https://drive.google.com/file/d/1qpnqIYnHOYJQh4p-QdfEKGNvx1w_ekI8/view?usp=sharing).
 
 ## Citation
 If you feel RecRecNet is helpful in your research, please consider referring it:
