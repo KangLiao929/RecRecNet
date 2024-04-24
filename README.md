@@ -22,6 +22,9 @@ This is the official implementation for [RecRecNet](https://arxiv.org/abs/2301.0
   <img src="https://github.com/KangLiao929/RecRecNet/blob/main/img/result.png" height="400">
 </div>
 
+## Updates
+Our recent work MOWA can solve multiple image warping tasks in a single and unified framework, including image rectangling, distortion rectification, and other practical tasks. Check out more details [here](https://kangliao929.github.io/projects/mowa/)!
+
 ## Installation
 Using the virtual environment (conda) to run the code is recommended.
 ```
