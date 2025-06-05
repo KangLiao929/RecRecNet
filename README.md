@@ -34,10 +34,10 @@ pip install -r requirements.txt
 ```
 
 ## Dataset
-We constructed the first dataset for the rectified wide-angle rectangling task. The structure of the original rectified wide-angle image was first optimized by an energy function with line-preserving mesh deformation, as proposed in [He et al.](https://kaiminghe.github.io/publications/sig13pano.pdf). And then we carefully filtered all results and repeated the selection process three times. The dataset can be downloaded here: [train.zip](https://drive.google.com/file/d/1tUFgMMkSvdGtv7OYP1Z-0HV64suGnjUQ/view?usp=sharing), [test.zip](https://drive.google.com/file/d/1qpnqIYnHOYJQh4p-QdfEKGNvx1w_ekI8/view?usp=sharing).
+We constructed the first dataset for the rectified wide-angle rectangling task. The structure of the original rectified wide-angle image was first optimized by an energy function with line-preserving mesh deformation, as proposed in [He et al.](https://kaiminghe.github.io/publications/sig13pano.pdf). And then we carefully filtered all results and repeated the selection process three times. The dataset can be downloaded from: train.zip-[Google Drive](https://drive.google.com/file/d/1tUFgMMkSvdGtv7OYP1Z-0HV64suGnjUQ/view?usp=sharing), test.zip-[Google Drive](https://drive.google.com/file/d/1qpnqIYnHOYJQh4p-QdfEKGNvx1w_ekI8/view?usp=sharing).
 
 ## Pretrained Model
-Download the pretrained model [here](https://drive.google.com/file/d/1y9iTfWCycS3BAFViMsClbur11IY-HgXf/view?usp=sharing) and put it into the ```.\checkpoint``` folder.
+Download the pretrained model [Google Drive](https://drive.google.com/file/d/1y9iTfWCycS3BAFViMsClbur11IY-HgXf/view?usp=sharing) and put it into the ```.\checkpoint``` folder. The dataset and pretrained model are also available at [Baidu Netdisk](https://pan.baidu.com/s/1SZmMEsZ_egTpy38TCzlyTQ?pwd=s1vg).
 
 ## Training
 ### Curriculum Generation
